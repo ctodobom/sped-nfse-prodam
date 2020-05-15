@@ -618,7 +618,7 @@ class Tools extends BaseTools
         Validator::isValid($content, $this->xsdpath . '/PedidoCancelamentoNFe_v01.xsd');
         return $this->send($content, $operation, $mode);
     }
-    
+       
     /**
      * Assinatura adcional da string de cancelamento
      * @param integer $numero
